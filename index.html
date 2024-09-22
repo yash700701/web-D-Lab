@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th><img width="120px" src="https://jssuni.edu.in/jssaher/global-engagement/img/institute-jss-at.jpg" ></th>
+                <th colspan="4">JSS UNIVERSITY</th>
+            </tr>
+            <tr>
+                <td><a onclick="home()">home</a></td>
+                <td><a onclick="addForm()">login</a></td>
+                <td><a onclick="addRegistration()">registration</a></td>
+                <td><a id="catalogue" onclick="catalogue()">catalogue</a></td>
+                <td><a onclick="showCart()">cart</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul style="padding: 0px;">
+                        <li><a onclick="addCse()" >CSE</a></li>
+                        <li><a onclick="addEce()">ECE</a></li>
+                        <li><a onclick="addEee()">EEE</a></li>
+                        <li><a onclick="addCivil()">CIVIL</a></li>
+                    </ul>
+                </td>
+                <td colspan="4">
+                    <div id="display"></div>
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+        
+    </body>
+</html>

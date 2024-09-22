@@ -1,0 +1,97 @@
+
+ body{
+    background-image: url("https://png.pngtree.com/background/20231017/original/pngtree-elegant-black-background-with-3d-rendering-of-pleats-and-swirls-picture-image_5595151.jpg"); 
+    background-size: cover;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+    color : red;
+    background-color: black;
+    color: aliceblue;
+ }
+ /* login ......................................... */
+#login{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border: 2px solid black;
+    max-width:200px;
+    font-size: 25px;
+}
+p{
+    font-size: smaller;
+}
+
+/* registration................................................ */
+#registration{
+    max-width: 500px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 23px;
+}
+label{
+    display: block;
+}
+input, select, textarea {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    resize: none;
+}
+
+/* ..................................................... */
+
+    .container table,th,td{
+        border: 2px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+        padding: 10px;
+        font-size: 20px;
+        background-color: rgb(250, 255, 253);
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    li{
+        list-style-type: none;
+        padding-bottom: 40px;
+    }
+    #display{
+        height: 390px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    /* books table.................................................. */
+    #bookContainer{
+        background-color: white;
+        width: 400px;
+    }
+
+    #bookContainer table,th,tr,td{
+        border: 2px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+        padding: 8px;
+        font-size:15px;
+    } 
+
+    /* ....................................... */
+    #cartItem{
+        background-color: white;
+        width: 400px;
+    }
+    #cartItem table,th,tr,td{
+        border: 2px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+        padding: 8px;
+        font-size:15px;
+    } 
